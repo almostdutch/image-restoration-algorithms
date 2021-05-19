@@ -1,14 +1,14 @@
 # image-restoration-algorithms
-Image restoration in the image and frequency domains with a whole arsenal of restoration filters 
-
 This demo shows how to solve the image restoration problem
 
 Assumptions:
+
     (1) Degradation process can be modeled by a linear and shift-invariant system;
     
-    (2) Degradation operator (convolution kernel) is known.
+    (2) Degradation operator (convolution kernel) is known;
     
 Possibilities:
+
     Image restoration in the image domain (domain = 'image'). Slow restoration with high RAM requirements:
         (1) Constrained least squares filter (Clsfilter);
         
