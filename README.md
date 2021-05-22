@@ -1,11 +1,12 @@
-# image-restoration-algorithms
+'''
+demo_image_restoration.py
 This demo shows how to solve the image restoration problem
 
 Assumptions:
 
     (1) Degradation process can be modeled by a linear and shift-invariant system;
     
-    (2) Degradation operator (convolution kernel) is known;
+    (2) Degradation operator (convolution kernel) is known.
     
 Possibilities:
 
@@ -49,3 +50,14 @@ Possibilities:
         (3) Wiener filter (WienerFilter) with known noise and known nondegraded image
         
         (4) Wiener filter (WienerFilterK) with unknown noise and unknown nondegraded image
+
+'''        
+
+**Dummy dataset**<br/>
+
+Added Gaussian noise, mean 0, std dev 5<br/>
+Image restoration in the frequency domain: <br/>
+(left) Conjugate gradient filter, (center) Wiener filter with an empirical K constant, (right) Wiener filter
+<p align="center">
+  <img src="test_results/test_results_noise_std_5.jpeg" width="460" height="360"/>
+</p>
