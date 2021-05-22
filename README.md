@@ -1,5 +1,6 @@
 '''
 demo_image_restoration.py
+
 This demo shows how to solve the image restoration problem
 
 Assumptions:
